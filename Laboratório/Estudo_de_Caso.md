@@ -20,4 +20,4 @@ Apresentação
    
 3. [Seguranca Wireless](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/Seguranca-Redes-Wireless.pdf)
    
-4. [Tentaivas de Intrusão](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/tentativas_intrus%C3%A3o.pdf)
+4. [Tentativas de Intrusão](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/tentativas_intrus%C3%A3o.pdf)
