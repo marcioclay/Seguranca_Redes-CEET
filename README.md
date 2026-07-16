@@ -48,7 +48,8 @@ Unidade IV – Mecanismos de  Proteção
 
 Método de Avaliação:
 
-- Estudos de caso: 10 pontos (Entrega 5/8)
+- Estudos de caso: 5 pontos (Entrega 5/8)
+- Prova Teórica: 5 pontos
 - Laboratório1: 30 pontos
 - Laboratório2: 30 pontos
 - Laboratório3: 30 pontos
