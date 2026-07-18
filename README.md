@@ -6,9 +6,7 @@ Unidade I – Fundamentos de Segurança
 
 - Segurança da Informação
 - Tríade CIA
-- Autenticação, autorização e auditoria
 - Vulnerabilidades e ameaças
-- Engenharia social
 - Perímetro
 
 Unidade II – Ataques em Redes
