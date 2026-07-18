@@ -74,7 +74,7 @@ Ataque:
 Resultado:
 - Acesso não autorizado
 
-### 4. :hammer: Risco
+###   :satellite: 4. :hammer: Risco
 
 O risco representa a possibilidade de uma ameaça explorar uma vulnerabilidade e causar um impacto.
 
@@ -246,28 +246,14 @@ Uma organização pode adotar várias medidas:
 - Manter cópias de segurança para recuperação após incidentes.
 
 ### 9. Vulnerabilidade, ameaça e ataque: resumo
-┌────────────────────────────────────┐
-│ Vulnerabilidade                    │
-│ Uma fraqueza                       │
-└──────────────────┬─────────────────┘
-                   │
-                   ▼
-┌────────────────────────────────────┐
-│ Ameaça                             │
-│ Algo que pode explorar a fraqueza  │
-└──────────────────┬─────────────────┘
-                   │
-                   ▼
-┌────────────────────────────────────┐
-│ Ataque                             │
-│ Exploração da vulnerabilidade      │
-└──────────────────┬─────────────────┘
-                   │
-                   ▼
-┌────────────────────────────────────┐
-│ Impacto                            │
-│ Dano ao sistema ou à informação    │
-└────────────────────────────────────┘
+
+```mermaid
+flowchart TD
+    V[Vulnerabilidade<br/>Uma fraqueza] --> A[Ameaça<br/>Algo que pode explorar a fraqueza]
+    A --> T[Ataque<br/>Exploração da vulnerabilidade]
+    T --> I[Impacto<br/>Dano ao sistema ou à informação]
+```
+
 Exemplo final
 
 Uma empresa possui um servidor com uma senha fraca.
