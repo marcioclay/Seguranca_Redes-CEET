@@ -29,6 +29,7 @@ Perímetros em áreas de proteção:
 
 
 Uma visão simples da empresa
+
                          INTERNET
                              │
                        [ PERÍMETRO ]
@@ -47,11 +48,12 @@ Uma visão simples da empresa
                     │
                   DADOS
 
-Porém, é importante explicar aos alunos que o perímetro não é apenas o firewall ou a borda da rede. A segurança precisa proteger diferentes elementos da organização.
+O perímetro não é apenas o firewall ou a borda da rede. A segurança precisa proteger diferentes elementos da organização.
 
 Exemplo prático
 
 Um atacante envia um e-mail de phishing:
+
 
 Atacante
    │
@@ -70,6 +72,7 @@ Servidor
    ▼
 Dados
 
+
 Nesse caso, o ataque pode atravessar vários perímetros:
 
 Usuário → é enganado pelo phishing;
@@ -78,11 +81,9 @@ Rede → o malware tenta se movimentar;
 Servidor → tenta acessar outros sistemas;
 Dados → tenta roubar ou criptografar informações.
 
-Portanto, uma boa abordagem para a aula é apresentar:
-
 A Segurança da Informação protege pessoas, dispositivos, redes, sistemas, aplicações, dados e ambientes físicos.
 
-Para o seu curso de Redes de Computadores, eu organizaria os perímetros principais em seis grandes áreas:
+Seis grandes áreas:
 
 1. Perímetro físico
 2. Perímetro de rede
@@ -91,4 +92,4 @@ Para o seu curso de Redes de Computadores, eu organizaria os perímetros princip
 5. Perímetro de dados
 6. Perímetro humano e de identidade
 
-Essa divisão é simples o suficiente para os alunos compreenderem e permite relacionar cada área aos laboratórios: switches e roteadores (rede), servidores (infraestrutura), Wi-Fi (acesso sem fio), estações (endpoints) e sensores/atuadores (IoT/IIoT).
+switches e roteadores (rede), servidores (infraestrutura), Wi-Fi (acesso sem fio), estações (endpoints) e sensores/atuadores (IoT/IIoT).
