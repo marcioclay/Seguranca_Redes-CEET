@@ -13,11 +13,12 @@ Apresentação
 
 ### Estudos de casos
 
-1. Falha router DDoS
+1. Falha router DDoS - Jonatan, Samuel
    https://www.tecmundo.com.br/seguranca/407329-falha-de-seguranca-em-roteadores-da-cisco-e-explorada-em-ataques-dos.htm 
 
 2. [Seguranca rede Prefeitura](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/seguran%C3%A7a_rede_prefeitura.pdf)
-   
+   Breno
 3. [Seguranca Wireless](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/Seguranca-Redes-Wireless.pdf)
-   
+   Ericka
 4. [Tentativas de Intrusão](https://github.com/marcioclay/Seguranca_Redes-CEET/blob/main/Laborat%C3%B3rio/tentativas_intrus%C3%A3o.pdf)
+Acemar Kaio e Luiz
