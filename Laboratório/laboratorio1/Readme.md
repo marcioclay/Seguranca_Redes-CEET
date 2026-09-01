@@ -9,10 +9,9 @@ Laboratório containerlab para  mitigação de ataque DoS usando iptables e zabi
 
 ## 1. Visão geral da topologia
 
-```
-          <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2026ee45-e2d1-4484-9ff3-f01471b04c07" />
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2026ee45-e2d1-4484-9ff3-f01471b04c07" />
        
-```
+
 
 
 ## 2. Clonar o repositório e preparar permissões:Executar no terminal do ambiente Linux.
