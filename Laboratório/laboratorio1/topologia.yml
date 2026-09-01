@@ -40,6 +40,8 @@ topology:
     zabbix:
       kind: linux
       image: zabbix/zabbix-appliance:alpine-latest
+      binds:
+        - ./scripts:/scripts
       ports:
         - "8080:80"
         - "10051:10051"
