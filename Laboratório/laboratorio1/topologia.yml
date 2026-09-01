@@ -1,4 +1,5 @@
 name: lab
+
 topology:
   nodes:
     firewall:
@@ -7,13 +8,10 @@ topology:
       binds:
         - ./scripts:/scripts
       exec:
-        # Configura o IP na interface voltada para o switch
         - ip addr add 10.0.0.1/24 dev eth1
-                
 
     switch:
       kind: bridge
-      
 
     pc1:
       kind: linux
@@ -21,9 +19,7 @@ topology:
       binds:
         - ./scripts:/scripts
       exec:
-        
         - ip addr add 10.0.0.2/24 dev eth1
-        
 
     pc2:
       kind: linux
@@ -31,9 +27,7 @@ topology:
       binds:
         - ./scripts:/scripts
       exec:
-         
         - ip addr add 10.0.0.3/24 dev eth1
-        
 
     pc3:
       kind: linux
@@ -42,10 +36,19 @@ topology:
         - ./scripts:/scripts
       exec:
         - ip addr add 10.0.0.4/24 dev eth1
-        
+
+    zabbix:
+      kind: linux
+      image: zabbix/zabbix-appliance:alpine-latest
+      ports:
+        - "8080:80"
+        - "10051:10051"
+      exec:
+        - ip addr add 10.0.0.5/24 dev eth1
 
   links:
     - endpoints: ["firewall:eth1", "switch:eth1"]
     - endpoints: ["pc1:eth1", "switch:eth2"]
     - endpoints: ["pc2:eth1", "switch:eth3"]
     - endpoints: ["pc3:eth1", "switch:eth4"]
+    - endpoints: ["zabbix:eth1", "switch:eth5"]
