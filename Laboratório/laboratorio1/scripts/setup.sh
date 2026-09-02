@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# Nome da bridge definida no arquivo de topologia (nó "switch")
+# Identifica o diretório do script (Laboratorio/laboratorio1/scripts) e a pasta do laboratório
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+
 BRIDGE_NAME="switch"
-# Nome do arquivo de topologia do Containerlab
-CLAB_FILE="lab.clab.yml"
+CLAB_FILE="$PROJECT_DIR/topologia.yml"
 
 echo "=== 1. Verificando a Bridge no sistema ==="
 if ! ip link show "$BRIDGE_NAME" > /dev/null 2>&1; then
@@ -17,5 +19,5 @@ else
 fi
 
 echo ""
-echo "=== 2. Iniciando Deploy da Topologia ==="
+echo "=== 2. Iniciando Deploy da Topologia ($CLAB_FILE) ==="
 sudo containerlab deploy -t "$CLAB_FILE"
